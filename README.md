@@ -8,7 +8,7 @@ OpenFrameworks software for running microscope performances.
 
 ## Installation
 - Clone this folder into a typical apps directory of OpenFrameworks:
-	- `# cd of_v0.11.2_osx_release/apps/myApps`
+	- `$ cd of_v0.11.2_osx_release/apps/myApps`
 	- `$ git clone https://github.com/paulobarcelos/MicrocosmicGazing`
 - Install addons:
 	- `$ cd MicrocosmicGazing`
