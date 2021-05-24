@@ -9,6 +9,269 @@
 		<string>46</string>
 		<key>objects</key>
 		<dict>
+			<key>4D508D34156E7076531D9084</key>
+			<dict>
+				<key>fileRef</key>
+				<string>D58DCB2C0AEFDE6171E29540</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>E1A3FD40C8BCD507345F1126</key>
+			<dict>
+				<key>fileRef</key>
+				<string>D58DCB2C0AEFDE6171E29540</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>D58DCB2C0AEFDE6171E29540</key>
+			<dict>
+				<key>lastKnownFileType</key>
+				<string>wrapper.framework</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>Syphon.framework</string>
+				<key>path</key>
+				<string>local_addons/ofxSyphon/libs/Syphon/lib/osx/Syphon.framework</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>24AE2045956F7B14FD62E803</key>
+			<dict>
+				<key>fileRef</key>
+				<string>72C3D5A8ECE27632DF38EDAA</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>72C3D5A8ECE27632DF38EDAA</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.objcpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxSyphonServerDirectory.mm</string>
+				<key>path</key>
+				<string>local_addons/ofxSyphon/src/ofxSyphonServerDirectory.mm</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>D3D119C9FC5478FFB05D53D6</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxSyphonServerDirectory.h</string>
+				<key>path</key>
+				<string>local_addons/ofxSyphon/src/ofxSyphonServerDirectory.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>10D2870E9BB9901A0299863F</key>
+			<dict>
+				<key>fileRef</key>
+				<string>8AA5B286833FA22102CBC1C1</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>8AA5B286833FA22102CBC1C1</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.objcpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxSyphonServer.mm</string>
+				<key>path</key>
+				<string>local_addons/ofxSyphon/src/ofxSyphonServer.mm</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>5BB8B534FC4EC1F0179C7E6E</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxSyphonServer.h</string>
+				<key>path</key>
+				<string>local_addons/ofxSyphon/src/ofxSyphonServer.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>9BCCB753839D20505D52C861</key>
+			<dict>
+				<key>fileRef</key>
+				<string>E8055EB9AD6FA20BBDB59945</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>E8055EB9AD6FA20BBDB59945</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.objcpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxSyphonClient.mm</string>
+				<key>path</key>
+				<string>local_addons/ofxSyphon/src/ofxSyphonClient.mm</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>A9ECE76DDD22A93C2D9E7843</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxSyphonClient.h</string>
+				<key>path</key>
+				<string>local_addons/ofxSyphon/src/ofxSyphonClient.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>8B5A6860AD6BFD96001AD3C4</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>039587C6B66F26F8DF339073</string>
+					<string>A9ECE76DDD22A93C2D9E7843</string>
+					<string>E8055EB9AD6FA20BBDB59945</string>
+					<string>5BB8B534FC4EC1F0179C7E6E</string>
+					<string>8AA5B286833FA22102CBC1C1</string>
+					<string>D3D119C9FC5478FFB05D53D6</string>
+					<string>72C3D5A8ECE27632DF38EDAA</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>039587C6B66F26F8DF339073</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxSyphon.h</string>
+				<key>path</key>
+				<string>local_addons/ofxSyphon/src/ofxSyphon.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>6EC6342C911EBC32BC048EE1</key>
+			<dict>
+				<key>fileRef</key>
+				<string>98FAC90F15ECE7AD35409FD7</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>98FAC90F15ECE7AD35409FD7</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.objcpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>SyphonNameboundClient.m</string>
+				<key>path</key>
+				<string>local_addons/ofxSyphon/libs/Syphon/src/SyphonNameboundClient.m</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>EA6356FF11E8E34720ED4627</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>88E37526F46FFE1641F12741</string>
+					<string>98FAC90F15ECE7AD35409FD7</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>3112259FBD8C29EF21504D5B</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>EA6356FF11E8E34720ED4627</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>Syphon</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>06282FF91C157AE8EB7CB25F</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>3112259FBD8C29EF21504D5B</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>libs</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>9741CCB3450C7AB6F0E2754C</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>06282FF91C157AE8EB7CB25F</string>
+					<string>8B5A6860AD6BFD96001AD3C4</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>ofxSyphon</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>88E37526F46FFE1641F12741</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>SyphonNameboundClient.h</string>
+				<key>path</key>
+				<string>local_addons/ofxSyphon/libs/Syphon/src/SyphonNameboundClient.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
 			<key>82E17343E911B5ED80CF2D9F</key>
 			<dict>
 				<key>explicitFileType</key>
@@ -2441,6 +2704,7 @@
 					<string>9EE210E83277F28CB276D2D0</string>
 					<string>61B7C735DE812B75785F490C</string>
 					<string>2CB4448623640E89E52EEAB3</string>
+					<string>9741CCB3450C7AB6F0E2754C</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -2567,6 +2831,10 @@ fi
 				<string>E4EB6923138AFD0F00A09F29</string>
 				<key>buildSettings</key>
 				<dict>
+					<key>OTHER_CFLAGS</key>
+					<array>
+						<string>-F../../..//addons/ofxSyphon/libs/Syphon/lib/osx/</string>
+					</array>
 					<key>CONFIGURATION_BUILD_DIR</key>
 					<string>$(SRCROOT)/bin/</string>
 					<key>COPY_PHASE_STRIP</key>
@@ -2623,6 +2891,12 @@ fi
 						<string>local_addons/ofxPatches/libs/ofxPatches/src</string>
 						<string>local_addons/ofxPatches/src</string>
 						<string>local_addons/ofxKeyboardSettings/src</string>
+						<string>local_addons/ofxSyphon/libs</string>
+						<string>local_addons/ofxSyphon/libs/Syphon</string>
+						<string>local_addons/ofxSyphon/libs/Syphon/lib</string>
+						<string>local_addons/ofxSyphon/libs/Syphon/lib/osx</string>
+						<string>local_addons/ofxSyphon/libs/Syphon/src</string>
+						<string>local_addons/ofxSyphon/src</string>
 					</array>
 					<key>MACOSX_DEPLOYMENT_TARGET</key>
 					<string>10.9</string>
@@ -2646,6 +2920,10 @@ fi
 				<string>E4EB6923138AFD0F00A09F29</string>
 				<key>buildSettings</key>
 				<dict>
+					<key>OTHER_CFLAGS</key>
+					<array>
+						<string>-F../../..//addons/ofxSyphon/libs/Syphon/lib/osx/</string>
+					</array>
 					<key>COMBINE_HIDPI_IMAGES</key>
 					<string>YES</string>
 					<key>COPY_PHASE_STRIP</key>
@@ -2653,6 +2931,7 @@ fi
 					<key>FRAMEWORK_SEARCH_PATHS</key>
 					<array>
 						<string>$(inherited)</string>
+						<string>local_addons/ofxSyphon/libs/Syphon/lib/osx</string>
 					</array>
 					<key>GCC_GENERATE_DEBUGGING_SYMBOLS</key>
 					<string>YES</string>
@@ -2682,6 +2961,12 @@ fi
 						<string>local_addons/ofxPatches/libs/ofxPatches/src</string>
 						<string>local_addons/ofxPatches/src</string>
 						<string>local_addons/ofxKeyboardSettings/src</string>
+						<string>local_addons/ofxSyphon/libs</string>
+						<string>local_addons/ofxSyphon/libs/Syphon</string>
+						<string>local_addons/ofxSyphon/libs/Syphon/lib</string>
+						<string>local_addons/ofxSyphon/libs/Syphon/lib/osx</string>
+						<string>local_addons/ofxSyphon/libs/Syphon/src</string>
+						<string>local_addons/ofxSyphon/src</string>
 					</array>
 					<key>ICON</key>
 					<string>$(ICON_NAME_RELEASE)</string>
@@ -2700,6 +2985,9 @@ fi
 						<string>$(OF_CORE_LIBS)</string>
 						<string>$(OF_CORE_FRAMEWORKS)</string>
 						<string>$(LIB_OF)</string>
+						<string>-F../../..//addons/ofxSyphon/libs/Syphon/lib/osx/</string>
+						<string>-framework</string>
+						<string>Syphon</string>
 					</array>
 					<key>PRODUCT_NAME</key>
 					<string>$(TARGET_NAME)</string>
@@ -5450,6 +5738,10 @@ fi
 				<string>E4EB6923138AFD0F00A09F29</string>
 				<key>buildSettings</key>
 				<dict>
+					<key>OTHER_CFLAGS</key>
+					<array>
+						<string>-F../../..//addons/ofxSyphon/libs/Syphon/lib/osx/</string>
+					</array>
 					<key>CONFIGURATION_BUILD_DIR</key>
 					<string>$(SRCROOT)/bin/</string>
 					<key>COPY_PHASE_STRIP</key>
@@ -5502,6 +5794,12 @@ fi
 						<string>local_addons/ofxPatches/libs/ofxPatches/src</string>
 						<string>local_addons/ofxPatches/src</string>
 						<string>local_addons/ofxKeyboardSettings/src</string>
+						<string>local_addons/ofxSyphon/libs</string>
+						<string>local_addons/ofxSyphon/libs/Syphon</string>
+						<string>local_addons/ofxSyphon/libs/Syphon/lib</string>
+						<string>local_addons/ofxSyphon/libs/Syphon/lib/osx</string>
+						<string>local_addons/ofxSyphon/libs/Syphon/src</string>
+						<string>local_addons/ofxSyphon/src</string>
 					</array>
 					<key>MACOSX_DEPLOYMENT_TARGET</key>
 					<string>10.9</string>
@@ -5527,6 +5825,10 @@ fi
 				<string>E4EB6923138AFD0F00A09F29</string>
 				<key>buildSettings</key>
 				<dict>
+					<key>OTHER_CFLAGS</key>
+					<array>
+						<string>-F../../..//addons/ofxSyphon/libs/Syphon/lib/osx/</string>
+					</array>
 					<key>CONFIGURATION_BUILD_DIR</key>
 					<string>$(SRCROOT)/bin/</string>
 					<key>COPY_PHASE_STRIP</key>
@@ -5581,6 +5883,12 @@ fi
 						<string>local_addons/ofxPatches/libs/ofxPatches/src</string>
 						<string>local_addons/ofxPatches/src</string>
 						<string>local_addons/ofxKeyboardSettings/src</string>
+						<string>local_addons/ofxSyphon/libs</string>
+						<string>local_addons/ofxSyphon/libs/Syphon</string>
+						<string>local_addons/ofxSyphon/libs/Syphon/lib</string>
+						<string>local_addons/ofxSyphon/libs/Syphon/lib/osx</string>
+						<string>local_addons/ofxSyphon/libs/Syphon/src</string>
+						<string>local_addons/ofxSyphon/src</string>
 					</array>
 					<key>MACOSX_DEPLOYMENT_TARGET</key>
 					<string>10.9</string>
@@ -5627,6 +5935,10 @@ fi
 					<string>C81CA421013CC401005C1292</string>
 					<string>9FB2C75078B6F0CCF5DBA907</string>
 					<string>19C20C11C1A140B516357B08</string>
+					<string>6EC6342C911EBC32BC048EE1</string>
+					<string>9BCCB753839D20505D52C861</string>
+					<string>10D2870E9BB9901A0299863F</string>
+					<string>24AE2045956F7B14FD62E803</string>
 				</array>
 				<key>isa</key>
 				<string>PBXSourcesBuildPhase</string>
@@ -5640,6 +5952,7 @@ fi
 				<key>files</key>
 				<array>
 					<string>E4328149138ABC9F0047C5CB</string>
+					<string>E1A3FD40C8BCD507345F1126</string>
 				</array>
 				<key>isa</key>
 				<string>PBXFrameworksBuildPhase</string>
@@ -5708,6 +6021,10 @@ fi
 				<string>E4EB6923138AFD0F00A09F29</string>
 				<key>buildSettings</key>
 				<dict>
+					<key>OTHER_CFLAGS</key>
+					<array>
+						<string>-F../../..//addons/ofxSyphon/libs/Syphon/lib/osx/</string>
+					</array>
 					<key>COMBINE_HIDPI_IMAGES</key>
 					<string>YES</string>
 					<key>COPY_PHASE_STRIP</key>
@@ -5715,6 +6032,7 @@ fi
 					<key>FRAMEWORK_SEARCH_PATHS</key>
 					<array>
 						<string>$(inherited)</string>
+						<string>local_addons/ofxSyphon/libs/Syphon/lib/osx</string>
 					</array>
 					<key>GCC_DYNAMIC_NO_PIC</key>
 					<string>NO</string>
@@ -5744,6 +6062,12 @@ fi
 						<string>local_addons/ofxPatches/libs/ofxPatches/src</string>
 						<string>local_addons/ofxPatches/src</string>
 						<string>local_addons/ofxKeyboardSettings/src</string>
+						<string>local_addons/ofxSyphon/libs</string>
+						<string>local_addons/ofxSyphon/libs/Syphon</string>
+						<string>local_addons/ofxSyphon/libs/Syphon/lib</string>
+						<string>local_addons/ofxSyphon/libs/Syphon/lib/osx</string>
+						<string>local_addons/ofxSyphon/libs/Syphon/src</string>
+						<string>local_addons/ofxSyphon/src</string>
 					</array>
 					<key>ICON</key>
 					<string>$(ICON_NAME_DEBUG)</string>
@@ -5762,6 +6086,9 @@ fi
 						<string>$(OF_CORE_LIBS)</string>
 						<string>$(OF_CORE_FRAMEWORKS)</string>
 						<string>$(LIB_OF_DEBUG)</string>
+						<string>-F../../..//addons/ofxSyphon/libs/Syphon/lib/osx/</string>
+						<string>-framework</string>
+						<string>Syphon</string>
 					</array>
 					<key>PRODUCT_NAME</key>
 					<string>$(TARGET_NAME)Debug</string>
@@ -5779,6 +6106,10 @@ fi
 				<string>E4EB6923138AFD0F00A09F29</string>
 				<key>buildSettings</key>
 				<dict>
+					<key>OTHER_CFLAGS</key>
+					<array>
+						<string>-F../../..//addons/ofxSyphon/libs/Syphon/lib/osx/</string>
+					</array>
 					<key>COMBINE_HIDPI_IMAGES</key>
 					<string>YES</string>
 					<key>COPY_PHASE_STRIP</key>
@@ -5786,6 +6117,7 @@ fi
 					<key>FRAMEWORK_SEARCH_PATHS</key>
 					<array>
 						<string>$(inherited)</string>
+						<string>local_addons/ofxSyphon/libs/Syphon/lib/osx</string>
 					</array>
 					<key>GCC_GENERATE_DEBUGGING_SYMBOLS</key>
 					<string>YES</string>
@@ -5813,6 +6145,12 @@ fi
 						<string>local_addons/ofxPatches/libs/ofxPatches/src</string>
 						<string>local_addons/ofxPatches/src</string>
 						<string>local_addons/ofxKeyboardSettings/src</string>
+						<string>local_addons/ofxSyphon/libs</string>
+						<string>local_addons/ofxSyphon/libs/Syphon</string>
+						<string>local_addons/ofxSyphon/libs/Syphon/lib</string>
+						<string>local_addons/ofxSyphon/libs/Syphon/lib/osx</string>
+						<string>local_addons/ofxSyphon/libs/Syphon/src</string>
+						<string>local_addons/ofxSyphon/src</string>
 					</array>
 					<key>ICON</key>
 					<string>$(ICON_NAME_RELEASE)</string>
@@ -5831,6 +6169,9 @@ fi
 						<string>$(OF_CORE_LIBS)</string>
 						<string>$(OF_CORE_FRAMEWORKS)</string>
 						<string>$(LIB_OF)</string>
+						<string>-F../../..//addons/ofxSyphon/libs/Syphon/lib/osx/</string>
+						<string>-framework</string>
+						<string>Syphon</string>
 					</array>
 					<key>PRODUCT_NAME</key>
 					<string>$(TARGET_NAME)</string>
@@ -5968,7 +6309,9 @@ echo "$GCC_PREPROCESSOR_DEFINITIONS";
 				<key>dstSubfolderSpec</key>
 				<string>10</string>
 				<key>files</key>
-				<array />
+				<array>
+					<string>4D508D34156E7076531D9084</string>
+				</array>
 				<key>isa</key>
 				<string>PBXCopyFilesBuildPhase</string>
 				<key>runOnlyForDeploymentPostprocessing</key>

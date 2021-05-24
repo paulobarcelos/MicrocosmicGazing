@@ -3,6 +3,7 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
     ofSetVerticalSync(true);
+    ofSetWindowShape(1920, 1080);
 
     for (int i = 0; i<NUM_CAMERAS; i++) {
         cam[i].setDeviceID(i);
@@ -26,6 +27,9 @@ void ofApp::setup(){
     settings.setup('s', "Settings");
     settings.addCallback(&ofToggleFullscreen,"Toggle_Full_Screen");
     settings.addProperty(&currentEffect, "Current_Effect", 0, NUM_EFFECTS - 1, 1, 0);
+    
+    mainOutputSyphonServer.setName("Microcosmic Dashboard");
+    individualTextureSyphonServer.setName("Microcosmic Texture");
 }
 
 //--------------------------------------------------------------
@@ -35,10 +39,6 @@ void ofApp::update(){
         if(cam[i].isFrameNew()){
             effect[currentEffect].setTexture(cam[i], i);
             effect[currentEffect].update();
-            //for (int j = 0; j<NUM_EFFECTS; j++) {
-            //    effect[j].setTexture(cam[i], i);
-            //    effect[j].update();
-            //}
             
         }
         
@@ -48,10 +48,6 @@ void ofApp::update(){
         if(video[i].isFrameNew()){
             effect[currentEffect].setTexture(video[i], NUM_CAMERAS + i);
             effect[currentEffect].update();
-            //for (int j = 0; j<NUM_EFFECTS; j++) {
-            //    effect[j].setTexture(video[i], NUM_CAMERAS + i);
-            //    effect[j].update();
-            //}
         }
     }
 }
@@ -60,6 +56,8 @@ void ofApp::update(){
 void ofApp::draw(){
     effect[currentEffect].drawGUI();
     settings.draw(0,0);
+    mainOutputSyphonServer.publishScreen();
+    individualTextureSyphonServer.publishTexture(&(effect[currentEffect].getTexture()));
 }
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){

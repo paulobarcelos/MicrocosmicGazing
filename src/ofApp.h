@@ -7,6 +7,7 @@
 #include "ofMain.h"
 #include "ofxPatches.h"
 #include "ofxKeyboardSettings.h"
+#include "ofxSyphon.h"
 
 
 class ofApp : public ofBaseApp{
@@ -21,5 +22,7 @@ class ofApp : public ofBaseApp{
         ofVideoPlayer video[NUM_VIDEOS];
         ofxPatches::Manager effect[NUM_EFFECTS];
         ofxKeyboardSettings settings;
+        ofxSyphonServer mainOutputSyphonServer;
+        ofxSyphonServer individualTextureSyphonServer;
         int currentEffect;
 };

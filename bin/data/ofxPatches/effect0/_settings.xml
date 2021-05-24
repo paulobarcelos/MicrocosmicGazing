@@ -2,20 +2,20 @@
     <id>302933619</id>
 </inputs>
 <gui_position>
-    <x>547.471923828</x>
-    <y>54.764633179</y>
+    <x>546.684753418</x>
+    <y>69.837265015</y>
 </gui_position>
 <patches_gui_position>
-    <x>2.541091919</x>
-    <y>37.546951294</y>
+    <x>2.692108154</x>
+    <y>56.099243164</y>
 </patches_gui_position>
 <patches>
     <patch>
         <id>703407002</id>
         <name>Source 4</name>
         <gui_position>
-            <x>208.115905762</x>
-            <y>43.688796997</y>
+            <x>210.544769287</x>
+            <y>60.413894653</y>
         </gui_position>
         <inputs></inputs>
     </patch>
@@ -23,8 +23,8 @@
         <id>1254012496</id>
         <name>Invert</name>
         <gui_position>
-            <x>212.798126221</x>
-            <y>273.907592773</y>
+            <x>209.734863281</x>
+            <y>290.802673340</y>
         </gui_position>
         <inputs>
             <id>703407002</id>
@@ -34,8 +34,8 @@
         <id>302933619</id>
         <name>Gamma</name>
         <gui_position>
-            <x>207.457748413</x>
-            <y>446.676757812</y>
+            <x>206.791702271</x>
+            <y>465.972595215</y>
         </gui_position>
         <inputs>
             <id>1254012496</id>
