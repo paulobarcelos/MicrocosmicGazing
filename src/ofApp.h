@@ -6,6 +6,7 @@
 
 #include "ofMain.h"
 #include "ofxPatches.h"
+#include "ofxKeyboardSettings.h"
 
 
 class ofApp : public ofBaseApp{
@@ -14,8 +15,11 @@ class ofApp : public ofBaseApp{
         void setup();
         void update();
         void draw();
+        void keyPressed(int key);
 
         ofVideoGrabber cam[NUM_CAMERAS];
         ofVideoPlayer video[NUM_VIDEOS];
         ofxPatches::Manager effect[NUM_EFFECTS];
+        ofxKeyboardSettings settings;
+        int currentEffect;
 };

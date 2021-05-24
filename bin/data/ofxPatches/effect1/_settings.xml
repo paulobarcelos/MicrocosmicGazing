@@ -1,0 +1,44 @@
+<inputs>
+    <id>691329742</id>
+</inputs>
+<gui_position>
+    <x>569.199768066</x>
+    <y>36.564712524</y>
+</gui_position>
+<patches_gui_position>
+    <x>2.875259399</x>
+    <y>38.570068359</y>
+</patches_gui_position>
+<patches>
+    <patch>
+        <id>1559035429</id>
+        <name>Source 3</name>
+        <gui_position>
+            <x>211.633209229</x>
+            <y>44.932464600</y>
+        </gui_position>
+        <inputs></inputs>
+    </patch>
+    <patch>
+        <id>691329742</id>
+        <name>Linear Levels</name>
+        <gui_position>
+            <x>235.115844727</x>
+            <y>331.434631348</y>
+        </gui_position>
+        <inputs>
+            <id>1559035429</id>
+        </inputs>
+    </patch>
+    <patch>
+        <id>2022309391</id>
+        <name>Paintbrush</name>
+        <gui_position>
+            <x>610.638671875</x>
+            <y>215.884033203</y>
+        </gui_position>
+        <inputs>
+            <id>1559035429</id>
+        </inputs>
+    </patch>
+</patches>
