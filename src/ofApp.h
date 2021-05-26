@@ -1,7 +1,7 @@
 #pragma once
 
-#define NUM_CAMERAS 3
-#define NUM_VIDEOS 2
+#define NUM_CAMERAS 2
+#define NUM_VIDEOS 3
 #define NUM_EFFECTS 5
 
 #include "ofMain.h"
