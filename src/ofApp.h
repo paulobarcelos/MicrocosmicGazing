@@ -24,5 +24,6 @@ class ofApp : public ofBaseApp{
         ofxKeyboardSettings settings;
         ofxSyphonServer mainOutputSyphonServer;
         ofxSyphonServer individualTextureSyphonServer;
+        bool hideGui;
         int currentEffect;
 };

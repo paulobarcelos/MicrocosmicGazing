@@ -25,7 +25,8 @@ void ofApp::setup(){
     }
     
     settings.setup('s', "Settings");
-    settings.addCallback(&ofToggleFullscreen,"Toggle_Full_Screen");
+    settings.addCallback(&ofToggleFullscreen,"Toggle_Fullscreen");
+    settings.addProperty(&hideGui, "Hide GUI", false);
     settings.addProperty(&currentEffect, "Current_Effect", 0, NUM_EFFECTS - 1, 1, 0);
     
     mainOutputSyphonServer.setName("Microcosmic Dashboard");
@@ -54,8 +55,11 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-    effect[currentEffect].drawGUI();
-    settings.draw(0,0);
+    effect[currentEffect].draw(0, 0, ofGetWidth(), ofGetHeight());
+    if(!hideGui){
+        effect[currentEffect].drawGUI();
+        settings.draw(0,0);
+    }
     mainOutputSyphonServer.publishScreen();
     individualTextureSyphonServer.publishTexture(&(effect[currentEffect].getTexture()));
 }
